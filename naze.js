@@ -3435,7 +3435,7 @@ break;
 			break
 			
 			// Menu
-			case 'allmenu': case 'menu': {
+			case 'allmen': case 'men': {
     let profile;
     try {
         profile = await sych.profilePictureUrl(m.sender, 'image');
@@ -3457,10 +3457,7 @@ break;
 ├ *Mode* : ${sych.public ? 'Public' : 'Self'}
 ├ *Prefix* :${db.set[botNumber].multiprefix ? '「 MULTI-PREFIX 」' : ' *'+prefix+'*' }
 ╰─┬────❍
-╭─┴─❍「 *ABOUT* 」❍
-├ *Tanggal* : ${tanggal}
-├ *Hari* : ${hari}
-├ *Jam* : ${jam} WIB
+├ WIB
 ╰──────❍
 ╭──❍「 *BOT* 」❍
 │${setv} ${prefix}profile
@@ -3633,39 +3630,6 @@ break;
 │${setv} ${prefix}coffe
 │${setv} ${prefix}kucing
 ╰─┬────❍
-╭─┴❍「 *OWNER* 」❍
-│${setv} ${prefix}bot [set]
-│${setv} ${prefix}setbio
-│${setv} ${prefix}setppbot
-│${setv} ${prefix}join
-│${setv} ${prefix}leave
-│${setv} ${prefix}block
-│${setv} ${prefix}listblock
-│${setv} ${prefix}openblock
-│${setv} ${prefix}listpc
-│${setv} ${prefix}addcase
-│${setv} ${prefix}getcase
-│${setv} ${prefix}delcase
-│${setv} ${prefix}listgc
-│${setv} ${prefix}creategc
-│${setv} ${prefix}addprem
-│${setv} ${prefix}setcmd (reply stc)
-│${setv} ${prefix}listcmd
-│${setv} ${prefix}delcmd (reply stc)
-│${setv} ${prefix}delprem
-│${setv} ${prefix}listprem
-│${setv} ${prefix}addlimit
-│${setv} ${prefix}adduang
-│${setv} ${prefix}bot --settings
-│${setv} ${prefix}bot settings
-│${setv} ${prefix}getsession
-│${setv} ${prefix}delsession
-│${setv} ${prefix}delsampah
-│${setv} ${prefix}upsw
-│${setv} ${prefix}shutdown
-│${setv} $
-│${setv} >
-│${setv} <
 ╰──────❍`;
 
     await sych.sendMessage(m.chat, {
@@ -3682,7 +3646,7 @@ break;
             forwardedNewsletterMessageInfo: {
                 newsletterJid: my.ch,
                 serverMessageId: null,
-                newsletterName: 'SYCHEE🌱'
+                newsletterName: 'SYCHEE'
             },
             externalAdReply: {
                 title: author,
