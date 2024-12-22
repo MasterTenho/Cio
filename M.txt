@@ -1,0 +1,32 @@
+{   "Version": "2.4.0",
+    "ReleaseNotes": "NOVA ATUALIZAÇÃO",
+    "UrlUpdate": "",
+    "Sms": "",
+    "EmailFeedback": "",
+    "UrlContato": "https://t.me/HGR26",
+    "UrlTermos": "",
+    "CheckUser": "true",
+    "UdpPort": "7300",
+    "Servers": [{
+        "Name": "ᴏʀᴀᴄʟᴇ ᴄʟᴏᴜᴅ ʙʀᴀsɪʟ",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "",
+        "CheckUser": "",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+    }],
+    "Networks": [{
+      "Name": "𝙾𝚁𝙰𝙲𝙻𝙴 𝙲𝙻𝙾𝚄𝙳 𝙱𝚁 𝚅𝙸𝚅𝙾",
+      "FLAG": "vivo",
+      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:[app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+  ]
+}
