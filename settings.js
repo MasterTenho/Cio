@@ -9,11 +9,11 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.own = ['6287862997267', '0']
-global.owner = ['6287862997267', '62882008702155']
-global.packname = 'Bot WhatsApp'
-global.author = 'ydaa'
-global.botname = 'Sychy Bot'
+global.own = ['9', '0']
+global.owner = ['1', '5']
+global.packname = 'TECHNO'
+global.author = 'DEV'
+global.botname = 'TECHNO'
 global.listprefix = ['+','!']
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
@@ -28,10 +28,10 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://www.youtube.com/@sychyy00',
-	gh: 'https://github.com/sychyy',
-	gc: 'https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R',
-	ch: '120363383347233294@newsletter',
+	yt: 'https://www.youtube.com/',
+	gh: 'https://github.com/',
+	gc: 'https://chat.whatsapp.com/R',
+	ch: 'https://fi.com',
 }
 
 global.limit = {
